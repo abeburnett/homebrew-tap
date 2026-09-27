@@ -1,8 +1,8 @@
 class Skillcanary < Formula
   desc "Check AI skills and plugins before your agent reads them"
   homepage "https://skillcanary.com"
-  url "https://github.com/abeburnett/canary/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "57f28dc10d97c3c66bdc7fdfa2a7c8071757eaf58c83cefaa1e1cc35a7ecdd45"
+  url "https://github.com/abeburnett/canary/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "c4a4916c8802847f00cca59b54ccdc7f0d82b93fd513985c7fc6c07c45c8d133"
   license "Apache-2.0"
 
   depends_on :macos
@@ -17,7 +17,8 @@ class Skillcanary < Formula
 
   def caveats
     <<~EOS
-      Run `canary setup` to choose a protection level.
+      Next: run `canary setup` to choose a protection level.
+      Step-by-step: https://skillcanary.com/start
     EOS
   end
 
