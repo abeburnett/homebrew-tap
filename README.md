@@ -6,6 +6,7 @@ installs them only after you approve. See https://skillcanary.com.
 Install:
 
     brew tap abeburnett/tap
+    brew trust abeburnett/tap
     brew install skillcanary
 
 Then run `canary setup` and choose a protection level.
