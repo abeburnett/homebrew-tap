@@ -1,8 +1,8 @@
 class Skillcanary < Formula
   desc "Check AI skills and plugins before your agent reads them"
   homepage "https://skillcanary.com"
-  url "https://github.com/abeburnett/canary/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "c4a4916c8802847f00cca59b54ccdc7f0d82b93fd513985c7fc6c07c45c8d133"
+  url "https://github.com/abeburnett/canary/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "6a0f3a9819678175f810d85f4ec28244122a377779447c0d955b737697027048"
   license "Apache-2.0"
 
   depends_on :macos
